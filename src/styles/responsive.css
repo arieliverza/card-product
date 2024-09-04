@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media (max-width: 650px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    main .img img {
+        height: 270px;
+        width: 356px;
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    main .info {
+        height: 378px;
+        width: 356px;
+        padding-bottom: 104px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    main .info h3 {
+        padding: 25px 0px 0px 25px;
+    }
+
+    main .info h1 {
+        margin:  6px 18px 18px 25px;
+        padding-top: 10px;
+        font-size: 2.2em;
+    }
+
+    main .info .description {
+        margin:  2px 18px 10px 25px;
+    }
+
+    main .price {
+        display: flex;
+        align-self: start;
+    }
+
+    main .current-price {
+        font-size: 1.9em;
+        padding-right: 20px;
+    }
+
+    main .btn {
+        margin: auto;
+        padding: 25px;
+        width: 298px;
+        height: 24px;
+    }
+
+    .attribution {
+        margin-top: 80px;
+    }
+
+}
